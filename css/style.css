@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card {
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  margin-top: 10px;
+}

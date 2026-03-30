@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stickerist.jo - gifts and more</title>
     <meta name="description" content="We are selling cute and trendy stickers for your laptop, phone, and more! Our stickers are made of high-quality vinyl and come in a variety of designs to suit your style. Whether you're looking for something fun and colorful or something more minimalist, we have the perfect sticker for you. Our stickers are easy to apply and remove, making them a great way to personalize your belongings without damaging them. Shop our collection today and add some personality to your devices!">
-    
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -20,13 +20,107 @@
             <a href="#">Contact Us</a>   
             </div>
     </header>
-    <main>This is main
-        <div>
-         <img src="../images/img (1).jpg" alt="Coffee1" style="width: 300px;"/>
-         <img src="../images/img (2).jpg" alt="Coffee2" style="width: 300px;"/>
-         <img src="../images/img (3).jpg" alt="Coffee3" style="width: 300px;"/>
+    <section>
+    <h1>Our products</h1>
+    <main class="gallery">
+        <div class="card">
+            <img src="../images/img (1).jpg" alt="Coffee1" />
+            <p>The phrase conveys a poetic and emotional tone, suggesting something like “Life is short, and the destiny is to see you” or “Life is brief, and the ultimate fate is meeting you.”</p>
         </div>
+        <div class="card"> 
+            <img src="../images/img (2).jpg" alt="Coffee2" />
+            <p>“Of the sweet moments: a cup of coffee with the one you <strong>love</strong>."</p>
+        </div>
+        <div class="card">
+            <img src="../images/img (3).jpg" alt="Coffee3" /> 
+            <p><em>“Two cups of coffee and a heart that loves you back.”</em></p>                       
+        </div>     
     </main>
+    </section>
+    <section>
+        <h1>Contact us</h1>
+    <div>
+        <form> 
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name"/> 
+            </br>
+            </br>
+            
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email" id="email"/> 
+            </br>
+            </br>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" id="phone"/> 
+            </br>
+            </br>
+            
+            <label for="description">Description</label>
+            <input type="text" placeholder="description" id="description"/> 
+            </br>
+            </br>
+            
+            <label for="color">Description</label>
+            <input type="color" placeholder="Color" id="color"/> 
+            </br>
+            </br>
+        
+            <label for="gender">Enter your gender: </label>
+            </br>
+            </br>
+        
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="female" value="female"/>
+            </br>
+            </br>
+            
+            <label for="languages">Languages</label>
+            </br>
+            </br>
+        
+            <label for="english">english</label>
+            <input type="checkbox" name="english" id="english"/>
+            </br>
+            </br>
+        
+            <label for="arabic">arabic</label>
+            <input type="checkbox" name="arabic" id="arabic"/>
+            </br>
+            </br>
+        
+            <label for="spanish">Spanish</label>
+            <input type="checkbox" name="Spanish" id="Spanish"/>
+            </br>
+            </br>
+
+            <select>
+            </br>
+            </br>
+
+                <option selected value="">Choose country</option>
+        
+                <option value="jordan">Jordan</option>
+        
+                <option value="lebanon">Lebanon</option>
+            
+                <option value="iraq">Iraq</option>
+        
+                <option value="qatar">Qatar</option>
+            </select>
+            </br>
+            </br>
+        
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div> 
+    </section>
+    <section>
+        <h1>This is an animated photo</h1>
+    <img src="https://media1.tenor.com/m/i3lImBg2UEQAAAAd/scaler-create-impact.gif">
     <footer> 
         <h3>Stickerist.jo shop</h3>
         <p>All Right Reserved</p>
@@ -40,6 +134,7 @@
         <a href="#">Contact Us</a>
         </div>
     </footer>
+    </section>
 
 
 </body>
