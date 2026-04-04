@@ -7,6 +7,7 @@ body {
     gap: 20px;
     flex-wrap: wrap;
     align-items: flex-start;
+    flex
 }
 .card {
   width: 250px;
@@ -21,3 +22,4 @@ body {
 .card p {
   margin-top: 10px;
 }
+
