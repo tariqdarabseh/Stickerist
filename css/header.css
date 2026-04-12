@@ -2,35 +2,59 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-        .logoandtext{
-            display: flex;
+            background-color: #110651;
+            position: relative;
+            padding: 10px 20px;
+            
+         }
+.logoandtext{
+           display: flex;
             flex-direction: row;
             align-items: center;
             gap: 10px;
+            color: aliceblue;
         }
-        .logoandtext text{
+.logoandtext text{
             display: flex;
             flex-direction: column; 
+            align-items: flex-end;
+            
                        
         }
-        .text h1{
+.text h1{
             margin: 0;           
-        }
-        .text h6{
+         }
+.text h6{
             margin: 0;           
-        }
-        .logoandtext img{
-            width: 60px;
-            padding: 10px;
-            
-        }
-        .menu img{
-            width: 50px;
+         }
+      
+.menu img{
+            width: 30px;
             padding: 10px;
 
-        }
-        header{
-            box-shadow: 2px 2px 2px 2px grey;
-        }
+         }
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo img{
+            width: 60px;
+            padding: 10px;
+
+         }
         
+        
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    
+
+}

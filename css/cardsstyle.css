@@ -1,0 +1,128 @@
+.index-cards-section{
+    display: flex;
+    /*gap: 5px;*/
+    flex-direction: column;
+    margin: 10px;
+}
+.cards-box{
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap;   
+    width: 100%;
+    
+
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    border: #222064 2px solid;
+    border-radius: 10px;
+    width: 195px;
+    height: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+}
+.card-plus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: #222064 2px solid;
+    border-radius: 10px;
+    width: 299px;
+    height: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    
+
+}
+.title{
+    text-align: center;
+    color: #222064;
+}
+.title{
+    text-align: center;
+    color: #000000;
+}
+.title h4{
+    text-align: center;
+    color: #7c7c7c;
+    
+}
+
+
+.show-more-button{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+
+}
+.show-more-button button{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: #FF85BB solid 1px;
+    border-radius: 5px;
+    color: #ff3679;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+
+
+.card-image{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8990c5;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 200px;
+    align-items: center;
+}
+.card-image img{
+    width: 120px;
+    
+    
+
+}
+.cards-text p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-size: 14px;
+    
+}
+.cards-text h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-size: 15px;
+    
+}
+.card button{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: #FF85BB solid 1px;
+    border-radius: 5px;
+    color: #ff3679;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: auto;
+    
+
+    }
+.card-plus button{
+   
+}
+body{
+    
+    font-family: 'Cairo', sans-serif;
+
+}

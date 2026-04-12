@@ -1,0 +1,53 @@
+.main-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.parent{
+    display: flex;
+    gap: 10px;
+
+}
+.left-image{
+    border: 1px black solid;
+}
+.center-image{
+    border: 1px black solid;
+
+}
+
+
+.left-image img{
+    width: 400px;
+    
+}
+.center-image img{
+    width: 200px;
+}
+.colm-imags{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10;
+    
+}
+.colm-imags img{
+    width: 200px;
+    border: 1px black solid;
+}
+.under{
+    display: flex;
+    gap: 90px;
+    
+}
+.first{
+    display: flex;
+    
+}
+.under img{
+    
+    width: 100px;
+
+
+}
