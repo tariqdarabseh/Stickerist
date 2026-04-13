@@ -63,3 +63,42 @@ body{
     font-family: 'Cairo', sans-serif;
 
 }
+.index-cards-section{
+    display: flex;
+    /*gap: 5px;*/
+    flex-direction: column;
+    margin: 10px;
+}
+
+.title{
+    text-align: center;
+    color: #222064;
+}
+.title{
+    text-align: center;
+    color: #000000;
+}
+.title h4{
+    text-align: center;
+    color: #7c7c7c;
+    
+}
+
+
+.show-more-button{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+
+}
+.show-more-button button{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: #FF85BB solid 1px;
+    border-radius: 5px;
+    color: #ff3679;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+
+}
