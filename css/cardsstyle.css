@@ -22,7 +22,6 @@
     border-radius: 10px;
     width: 195px;
     height: 300px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
 }
 .card-plus{
@@ -33,7 +32,6 @@
     border-radius: 10px;
     width: 299px;
     height: 350px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     justify-content: space-between;
     
 
@@ -83,7 +81,8 @@
     align-items: center;
 }
 .card-image img{
-    width: 120px;
+    
+    max-width: 100px;
     
     
 
@@ -94,14 +93,21 @@
     padding: 0px;
     color: #000000;
     font-size: 14px;
+   
     
 }
 .cards-text h3 {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    color: #000000;
-    font-size: 15px;
+    
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: center;
+  margin: 0 0 12px;
+  min-height: calc(1.35em * 2);
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
     
 }
 .card button{
@@ -126,3 +132,34 @@ body{
     font-family: 'Cairo', sans-serif;
 
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px , 1fr));
+    gap: 7px;
+    margin: 10px;
+}
+.card-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    border: #222064 2px solid;
+    border-radius: 10px;
+    height: 300px;
+
+}
+.card-grid button{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: #FF85BB solid 1px;
+    border-radius: 5px;
+    color: #ff3679;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: auto;
+    
+
+    }
