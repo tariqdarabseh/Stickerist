@@ -1,25 +1,24 @@
-.grid-parent{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px , 1fr));
-    gap: 7px;
-    text-align: center;
-    margin: 10px;
-
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 7px;
+  text-align: center;
+  margin: 10px;
 }
-.card1{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 7px;
-    border: 2px solid #222064;
-
+.card1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 7px;
+  border: 2px solid #222064;
 }
-.cards-text1 p, h3 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
+.cards-text1 p,
+h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
 }
-.card1 button{
+.card1 button {
   display: block;
   width: 90%;
   height: 42px;
@@ -31,78 +30,66 @@
   color: #ff4d6d;
   cursor: pointer;
   transition: 0.2s;
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
   margin-top: auto;
   margin: 5px;
-  }
-  .card1 button:hover {
+}
+.card1 button:hover {
   background: #ff4d6d;
   color: white;
 }
-.card-image1{
-    background-color: #8990c5;
-    height: 100%;
-    width: 100%;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    
-    
+.card-image1 {
+  background-color: #8990c5;
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.card-image1 img{
-    width: 100%;
-    height: auto;
-    
-    
+.card-image1 img {
+  width: 100%;
+  height: auto;
 }
-body{
-    
-    font-family: 'Cairo', sans-serif;
-
+body {
+  font-family: "Cairo", sans-serif;
 }
-.index-cards-section{
-    display: flex;
-    /*gap: 5px;*/
-    flex-direction: column;
-    
-    
+.index-cards-section {
+  display: flex;
+  /*gap: 5px;*/
+  flex-direction: column;
 }
 
-.title{
-    text-align: center;
-    color: #222064;
+.title {
+  text-align: center;
+  color: #222064;
 }
-.title{
-    text-align: center;
-    color: #000000;
+.title {
+  text-align: center;
+  color: #000000;
 }
-.title h4{
-    text-align: center;
-    color: #7c7c7c;
-    
+.title h4 {
+  text-align: center;
+  color: #7c7c7c;
 }
 
-
-.show-more-button{
-    text-align: center;
-    font-family: 'Cairo', sans-serif;
-
+.show-more-button {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
 }
-.show-more-button button{
-    margin-bottom: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: #FF85BB solid 1px;
-    border-radius: 5px;
-    color: #ff3679;
-    height: 30px;
-    font-size: 16px;
-    font-family: 'Cairo', sans-serif;
-
+.show-more-button button {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: #ff85bb solid 1px;
+  border-radius: 5px;
+  color: #ff3679;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
 }
 .top-slider {
   width: 100%;
@@ -119,10 +106,9 @@ body{
 .first-item {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   justify-content: center;
-  text-align: center;  
-  
+  text-align: center;
 }
 
 .first-item img {
@@ -132,7 +118,7 @@ body{
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  background-color: #3d98ff; 
+  background-color: #3d98ff;
 }
 .first-item p {
   margin-top: 10px;
