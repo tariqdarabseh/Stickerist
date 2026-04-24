@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
 }
@@ -63,4 +63,4 @@ header {
 .logo img {
   width: clamp(35px, 8vw, 60px);
   height: auto;
-}
+} */
