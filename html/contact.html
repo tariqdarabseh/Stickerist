@@ -81,30 +81,54 @@
         </div>
       </div>
     </nav>
+    <!----------- End of Header Block ---------->
+    <!----------- End of Header Block ---------->
+
     <br />
-    <main dir="rtl">
-      <div class="container">
-        <h1>تواصل معنا</h1>
-        <div class="row">
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="First name"
-              aria-label="First name"
-            />
-          </div>
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Last name"
-              aria-label="Last name"
-            />
+    <form>
+      <div dir="rtl">
+        <div class="container d-flex gap-5 flex-column">
+          <h1>تواصل معنا</h1>
+          <div class="d-flex flex-column gap-2">
+            <div class="col-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="الاسم الاول"
+                aria-label="الاسم الاول"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="الاسم الاخير"
+                aria-label="الاسم الاخير"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="البريد الالكتروني"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="الوصف"
+              ></textarea>
+            </div>
+            <div class="col-6">
+              <button class="btn btn-primary" type="submit">ارسال</button>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    </form>
     <br />
     <br />
 
