@@ -1,4 +1,4 @@
-.grid-parent {
+/* .grid-parent {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 7px;
@@ -60,7 +60,7 @@ body {
 .index-cards-section {
   display: flex;
   /*gap: 5px;*/
-  flex-direction: column;
+  /* flex-direction: column;
 }
 
 .title {
@@ -123,4 +123,4 @@ body {
 .first-item p {
   margin-top: 10px;
   text-align: center;
-}
+} */ 
