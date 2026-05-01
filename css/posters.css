@@ -1,0 +1,30 @@
+/* ------------- Scroll bar section ----------- */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff4080;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff1463;
+}
+
+/* ------------- body section ----------- */
+body {
+  font-family: "Cairo", sans-serif;
+}
+/* ------------ card images ----------*/
+
+.card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
